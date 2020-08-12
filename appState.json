@@ -1,0 +1,116 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "6db36255-2d82-454f-b265-463e82927230": {
+        "id": "6db36255-2d82-454f-b265-463e82927230",
+        "parent": null,
+        "name": "python-induuu220.py",
+        "type": "PYTHON_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "python-induuu220.py",
+        "cursor": {
+          "lineNumber": 1,
+          "column": 1
+        },
+        "config": {
+          "runtime": "python2.7",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": [],
+          "name": "pythonInduuu220"
+        },
+        "triggers": [
+          {
+            "resourceName": "apigusEast1indunil223qainduany",
+            "config": {}
+          }
+        ]
+      }
+    },
+    "openFiles": [
+      "6db36255-2d82-454f-b265-463e82927230"
+    ],
+    "currentFileId": "6db36255-2d82-454f-b265-463e82927230",
+    "resources": {
+      "apigusEast1indunil223qainduany": {
+        "name": "apigusEast1indunil223qainduany",
+        "type": "API_GATEWAY",
+        "config": {
+          "selectedRegion": "us-east-1",
+          "apiType": 1,
+          "apiMode": 0,
+          "apiName": "indunil223",
+          "endpointType": "REGIONAL",
+          "resourceMode": 0,
+          "resourceName": "qa/indu",
+          "resourcePath": "/qa/indu",
+          "restMethod": "ANY",
+          "proxyIntegration": false,
+          "enableCORS": false,
+          "stageMode": 0,
+          "stageName": "Test",
+          "mode": 0
+        }
+      },
+      "s3induuuu": {
+        "name": "s3induuuu",
+        "type": "S3",
+        "config": {
+          "mode": 0,
+          "bucket": {
+            "region": "us-east-1",
+            "name": "induuuu"
+          }
+        }
+      }
+    },
+    "customTemplate": {
+      "syntax": "JSON",
+      "overrideDefault": false,
+      "dialect": null,
+      "definitions": null
+    },
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {
+        "boto3": {
+          "name": "boto3",
+          "language": "python",
+          "version": "1.12.27",
+          "dev": true,
+          "notRemovable": false
+        }
+      }
+    }
+  },
+  "PROJECT_META": {
+    "sigmaVersion": "1.4.1.5",
+    "projectName": "python-induuu220",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "us-east-1",
+    "platform": "AWS",
+    "language": "python",
+    "platformRegions": {},
+    "lastSave": 1597222503371
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "python-induuu220",
+      "url": "https://github.com/Indunil1992/python-induuu220"
+    }
+  }
+}
